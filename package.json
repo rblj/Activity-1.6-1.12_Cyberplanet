@@ -1,0 +1,24 @@
+{
+  "name": "super-final-ite18",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "vercel --prod",
+    "login": "vercel login`",
+    "logout": "vercel logout"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "lil-gui": "^0.20.0",
+    "three": "^0.170.0",
+    "vercel": "^39.1.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.11"
+  },
+  "engones": {
+    "node": "20.x"
+  }
+}
